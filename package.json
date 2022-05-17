@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "appolo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "zouba": "nodemon server.js"
+  },
+  "author": "zouba",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.13",
+    "nodemon": "^2.0.7"
+  }
+}
